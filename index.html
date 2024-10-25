@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>All In Store</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navTop">
+        <div class="navItem">
+          <img src="./images/All In Logo 2.png" alt="" />
+        </div>
+        <div class="navItem">
+          <div class="search">
+            <input type="text" placeholder="Search..." class="searchInput" />
+            <img
+              src="./images/search.png"
+              width="22"
+              height="22"
+              alt=""
+              class="searchIcon"
+            />
+          </div>
+        </div>
+        <div class="navItem">
+          <span class="limitedOffer">Limited Offer!</span>
+        </div>
+      </div>
+      <div class="navBottom">
+        <h3 class="menuItem">Tee Shirts</h3>
+        <h3 class="menuItem">Mugs</h3>
+        <h3 class="menuItem">Lunchboxes</h3>
+        <h3 class="menuItem">Hoodies</h3>
+        <h3 class="menuItem">Bottles</h3>
+      </div>
+    </nav>
+    <div class="slider">
+      <div class="sliderWrapper">
+        <div class="sliderItem">
+          <img src="./images/black tshirt.jpeg" alt="" class="sliderImg" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">PLAIN T-SHIRT</h1>
+          <h2 class="sliderPrice">$7.99</h2>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+          <img src="./images/black mug.jpeg" alt="" class="sliderImg" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">MUG</h1>
+          <h2 class="sliderPrice">$4.50</h2>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+          <img src="./images/green lunchbox.jpeg" alt="" class="sliderImg" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">LUNCHBOX</h1>
+          <h2 class="sliderPrice">$3.99</h2>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+          <img src="./images/plain hoodie.jpeg" alt="" class="sliderImg" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">HOODIE</h1>
+          <h2 class="sliderPrice">$15.25</h2>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+        </div>
+        <div class="sliderItem">
+          <img src="./images/water bottle.jpeg" alt="" class="sliderImg" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">WATER BOTTLE</h1>
+          <h2 class="sliderPrice">$4.99</h2>
+          <a href="#product">
+            <button class="buyButton">BUY NOW!</button>
+          </a>
+        </div>
+      </div>
+    </div>
+   
+    <div class="product" id="product">
+      <img src="./images/black tshirt.jpeg" alt="" class="productImg" />
+      <div class="productDetails">
+        <h1 class="productTitle">PLAIN T-SHIRT</h1>
+        <h2 class="productPrice">$7.99</h2>
+        <p class="productDesc">
+          High quality and long lasting!!
+        </p>
+
+        <div class="colors">
+          <div class="color"></div>
+          <div class="color"></div>
+        </div>
+        <div class="sizes">
+          <div class="size">SMALL</div>
+          <div class="size">MEDIUM</div>
+          <div class="size">LARGE</div>
+        </div>
+        <button class="productButton">BUY NOW!</button>
+      </div>
+      <div class="payment">
+        <h1 class="payTitle">Personal Information</h1>
+        <label>Name and Surname</label>
+        <input type="text" placeholder="John Smith" class="payInput" />
+        <label>Phone Number</label>
+        <input type="text" placeholder="+263 777777777" class="payInput" />
+        <label>Home Address</label>
+        <input type="text" placeholder="32 Windsor rd, Harare" class="payInput" />
+        <h1 class="payTitle">Card Information</h1>
+        <div class="cardIcons">
+          <img src="./images/visa icon.png" width="40" alt="" class="cardIcon">
+          <img src="./images/mastercard icon.png" width="40" alt="" class="cardIcon">
+        </div>
+        <input type="password" class="payInput" placeholder="Card Number">
+        <div class="cardInfo">
+          <input type="text" placeholder="mm" class="payInput sm">
+          <input type="text" placeholder="yyyy" class="payInput sm">
+          <input type="text" placeholder="cvv" class="payInput sm">
+        </div>
+        <button class="payButton">Checkout!</button>
+        <span class="close">X</span>
+      </div>
+    </div>
+     
+    <footer>
+      <div class="footerLeft">
+        <div class="footerMenu">
+          <h1 class="fMenuTitle">Nyasha F. Mapira</h1>
+            <ul class="fList">
+              <li class="fListItems">H230202V</li>
+              <li class="fListItems">Web Technologies Project</li>
+              <li class="fListItems">Harare Institute of Technology</li>
+            </ul>
+        </div>
+        <div class="footerLeft">
+          <div class="footerMenu">
+            <h1 class="fMenuTitle">Products</h1>
+            <ul class="fList">
+              <li class="fListItem">T-Shirts</li>
+              <li class="fListItem">Mugs</li>
+              <li class="fListItem">Lunchboxes</li>
+              <li class="fListItem">Hoodies</li>
+              <li class="fListItem">Water Bottles</li>
+            </ul>
+          </div>
+      </div>
+      <div class="footerRight">
+        <div class="footerRightMenu">
+          <h1 class="fMenuTitle">Subscribe to our newsletter </h1>
+          <div class="fMail">
+            <input type="text" placeholder="your@email.com" class="fInput">
+            <button class="fButton">Join!</button>
+          </div>
+        </div>
+        <div class="footerRightMenu">
+          <h1 class="fMenuTitle">Follow Us</h1> 
+          <div class="fIcons">
+            <img src="./images/linkedin.png" alt="" class="fIcon">
+            <img src="./images/twitter.jpeg" alt="" class="fIcon">
+            <img src="./images/whatsapp.png" alt="" class="fIcon">
+          </div>
+        </div>
+        <div class="footerRightMenu">
+          <span class="copyright">@Nyasha. All Rights Reserved. 2024</span>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
