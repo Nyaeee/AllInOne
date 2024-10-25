@@ -1,0 +1,1 @@
+Welcome to my Online Store! This is a personal project created as I explore the world of web development. As a beginner, I'm still learning and refining my skills, so you may encounter some imperfections along the way. Your feedback is invaluable, and I appreciate your understanding as I work to improve this site. Thank you for checking it out!
